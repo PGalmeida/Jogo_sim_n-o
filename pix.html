@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIM-NÃO</title>
+    <style>
+         body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+         .box{
+            font-size: 20px;
+            color: white;
+            height: 250px;
+            width: 350px;
+            border-radius: 10px;
+            background: #191919;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body onload="voltar()">
+    <div class="box">
+        <p>Chave Pix: 16996981018</p>
+    </div>
+</body>
+    <script>
+        function voltar() {
+            setTimeout(function(){
+                window.location.href = 'index.html';
+            }, 10000); 
+    }
+    </script>
+</html>
